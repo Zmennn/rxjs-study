@@ -8,8 +8,16 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <input type="text" name="s" id="search" />
-    <button id="stop">Stop</button>
-    <app-root></app-root>
+    <div class="container" id="body">
+      <input type="text" name="s" id="search" />
+      <button id="stop">Stop</button>
+      <canvas
+        id="canvas"
+        width="1200px"
+        height="600px"
+        style="border: solid red 2px; margin: 50px"
+      ></canvas>
+      <app-root></app-root>
+    </div>
   </body>
 </html>
